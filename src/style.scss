@@ -1,0 +1,59 @@
+$bg-color: #ddeefc;
+
+body {
+  background-color: $bg-color;
+  font-family: montserrat;
+}
+
+#form {
+  width: 40%;
+  height: 80vh;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.label {
+  margin-bottom: 2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.input {
+  font-weight: 400;
+  &:focus {
+    border-color: #3d9cff;
+    box-shadow: 0px 10px 20px -13px rgba(32, 56, 117, 0.35);
+  }
+}
+.button {
+  box-shadow: 0px 10px 20px -13px rgba(32, 56, 117, 0.35);
+  &:focus {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.card {
+  background: url("https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/23.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-weight: 600;
+  width: 35%;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+
+  transform: translate(-50%, -23%);
+  z-index: 10;
+  box-shadow: 0px 10px 20px -13px rgba(32, 56, 117, 0.35);
+  border-radius: 5px;
+
+}
